@@ -1,0 +1,186 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>GeeksforGeeks</title>
+  <style> 
+    body {
+      font-family: Arial, sans-serif;
+      line-height: 1.6;
+      margin: 0;
+      padding: 0;
+      background-color: #f0fdf4;
+      display: flex;
+      flex-direction: column;
+      min-height: 100vh;
+    }
+
+    .header {
+      background-color: #00b200;
+      color: #ffffff;
+      padding: 1rem;
+      text-align: center;
+    }
+
+    .header h1 {
+      margin: 0;
+    }
+
+    .header .button-container {
+      margin-top: 1rem;
+    }
+
+    .header a {
+      text-decoration: none;
+    }
+
+    main {
+      padding: 2rem;
+      max-width: 800px;
+      margin: 0 auto;
+      background-color: #ffffff;
+      box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+      flex: 1;
+    }
+
+    section {
+      margin-bottom: 2rem;
+    }
+
+    section h2 {
+      color: #333;
+    }
+
+    ul {
+      list-style-type: none;
+      padding: 0;
+    }
+
+    ul li {
+      background: #a0e3b7;
+      background-color: #00b200;
+      margin: 0.5rem 0;
+      padding: 0.5rem;
+      border-left: 5px solid #064635;
+    }
+
+    button {
+      --green: #00ff91;
+      font-size: 15px;
+      padding: 0.7em 2.7em;
+      letter-spacing: 0.06em;
+      position: relative;
+      font-family: inherit;
+      border-radius: 0.6em;
+      overflow: hidden;
+      transition: all 0.3s;
+      line-height: 1.4em;
+      border: 2px solid var(--green);
+      background: linear-gradient(to right, rgba(27, 253, 156, 0.1) 1%, transparent 40%,transparent 60% , rgba(27, 253, 156, 0.1) 100%);
+      color: var(--green);
+      box-shadow: inset 0 0 10px rgba(27, 253, 156, 0.4), 0 0 9px 3px rgba(27, 253, 156, 0.1);
+    }
+
+    button:hover {
+      color: #1bff9c;
+      box-shadow: inset 0 0 10px rgba(27, 253, 156, 0.6), 0 0 9px 3px rgba(27, 253, 156, 0.2);
+    }
+
+    button:before {
+      content: "";
+      position: absolute;
+      left: -4em;
+      width: 4em;
+      height: 100%;
+      top: 0;
+      transition: transform .4s ease-in-out;
+      background: linear-gradient(to right, transparent 1%, rgba(27, 253, 156, 0.1) 40%,rgba(27, 253, 156, 0.1) 60% , transparent 100%);
+    }
+
+    button:hover:before {
+      transform: translateX(15em);
+    }
+
+    .footer {
+      text-align: center;
+      padding: 0.5rem;
+      background-color: #a0e3b7;
+      color: #064635;
+      font-size: 0.8rem;
+      width: 100%;
+      position: relative;
+      bottom: 0;
+    }
+
+    .emoji {
+      font-size: 1.5rem;
+    }
+
+    @media (max-width: 768px) {
+      .header, .footer {
+        padding: 0.5rem;
+      }
+
+      button {
+        font-size: 16px;
+        padding: 8px 16px;
+      }
+
+      main {
+        padding: 1rem;
+      }
+    }
+  </style>
+</head>
+<body>
+  <header class="header">
+    <h1>My Coding Journey with GeeksforGeeks</h1>
+    <div class="button-container">
+      <a href="https://www.geeksforgeeks.org/user/hariompanxpi8/" target="_blank">
+        <button>Explore My GeeksForGeeks Profile</button>
+      </a>
+    </div>
+  </header>
+
+  <main>
+    <section class="intro">
+      <p>Every day, I dive into the fascinating world of coding through GeeksforGeeks. It has become an essential part of my routine, allowing me to sharpen my problem-solving skills and deepen my understanding of various Data Structures and Algorithms (DSA). Here's a glimpse into my daily journey and the topics I explore.</p>
+    </section>
+
+    <section class="practice">
+      <h2>Daily Practice on GeeksforGeeks</h2>
+      <p>GeeksforGeeks has a vast repository of coding problems that cover a wide range of difficulties and topics. Each day, I challenge myself with new problems, starting from easy and gradually moving to more complex ones. This consistent practice not only enhances my coding skills but also helps me think algorithmically and develop efficient solutions.</p>
+    </section>
+
+    <section class="contests">
+      <h2>Participating in Contests</h2>
+      <p>In addition to solving individual problems, I actively participate in coding contests on GeeksforGeeks. These contests are exhilarating and push me to think on my feet. The competitive environment motivates me to improve my speed and accuracy. It's also a great way to benchmark my progress against other coders and stay updated with the latest trends in competitive programming.</p>
+    </section>
+
+    <section class="topics">
+      <h2>Exploring DSA Topics</h2>
+      <ul>
+        <li><strong>Arrays:</strong> Fundamental structures for solving problems.</li>
+        <li><strong>Trees:</strong> Including binary trees and BST, focusing on traversal techniques and manipulation.</li>
+        <li><strong>Graphs:</strong> Basic and advanced graph algorithms like DFS, BFS, Dijkstra’s, and Kruskal's.</li>
+        <li><strong>Linked Lists:</strong> Singly, doubly, and circular linked lists with operations like reversal and merging.</li>
+        <li><strong>Stacks and Queues:</strong> Solving order and sequence problems.</li>
+        <li><strong>Hashing:</strong> Efficient data retrieval using hash tables.</li>
+        <li><strong>Dynamic Programming:</strong> Solving complex problems with DP techniques.</li>
+        <li><strong>Recursion and Backtracking:</strong> Exploring all possible solutions with recursion.</li>
+        <li><strong>Sorting and Searching:</strong> Implementing and optimizing algorithms for efficient solutions.</li>
+      </ul>
+    </section>
+
+    <section class="conclusion">
+      <h2>Conclusion</h2>
+      <p>My daily engagement with GeeksforGeeks and participation in contests have significantly improved my coding skills and problem-solving abilities. By consistently practicing and exploring a wide range of DSA topics, I am continually learning and growing as a programmer. Whether you're a beginner or an experienced coder, I highly recommend incorporating these practices into your routine. Happy coding!</p>
+    </section>
+  </main>
+
+  <footer class="footer">
+    <p>&copy; 2024 My Coding Journey</p>
+  </footer>
+</body>
+</html>

@@ -1,0 +1,278 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Hackerrank Profile - Himanshu kumar vishwakrma</title>
+  <link rel="stylesheet" href="styles.css">
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      line-height: 1.6;
+      margin: 0;
+      padding: 0;
+      background-color: #1a1a1a; /* Dark background */
+      display: flex;
+      flex-direction: column;
+      min-height: 100vh;
+      color: #ffffff; /* White text */
+    }
+
+    .header {
+      background-color: #0b8457; /* Dark green header */
+      color: white;
+      padding: 1rem;
+      text-align: center;
+    }
+
+    .header h1 {
+      margin: 0;
+    }
+
+    .header .button-container {
+      margin-top: 1rem;
+    }
+
+    main {
+      padding: 2rem;
+      max-width: 800px;
+      margin: 0 auto;
+      background-color: #2d2d2d; /* Darker background for main content */
+      box-shadow: 0 0 10px rgba(0,0,0,0.1);
+      flex: 1;
+      color: #ffffff; /* White text */
+    }
+
+    section {
+      margin-bottom: 2rem;
+      border-left: 5px solid #0b8457; /* Dark green border */
+      padding-left: 1rem; /* Add padding for section content */
+    }
+
+    section h2 {
+      color: #ffffff; /* White heading */
+    }
+
+    ul {
+      list-style-type: none;
+      padding: 0;
+    }
+
+    ul li {
+      background: #0b8457; /* Dark green background for list items */
+      color: white;
+      margin: 0.5rem 0;
+      padding: 0.5rem;
+      border-left: 5px solid #ffffff; /* White border on left */
+    }
+
+    .stars {
+      color: gold;
+    }
+
+    .badge {
+      margin: 1rem 0;
+      padding: 0.5rem;
+      border-left: 5px solid gold;
+      background-color: #2d2d2d; /* Darker background */
+      color: #ffffff; /* White text */
+    }
+
+    .badge h3 {
+      margin: 0;
+    }
+
+    .badge p {
+      margin: 0;
+    }
+
+    button {
+      --green: #0b8457; /* Dark green variable */
+      font-size: 15px;
+      padding: 0.7em 2.7em;
+      letter-spacing: 0.06em;
+      position: relative;
+      font-family: inherit;
+      border-radius: 0.6em;
+      overflow: hidden;
+      transition: all 0.3s;
+      line-height: 1.4em;
+      border: 2px solid var(--green);
+      background: var(--green); /* Dark green background */
+      color: #ffffff; /* White text */
+      cursor: pointer;
+      display: inline-block;
+      text-decoration: none;
+    }
+
+    button:hover {
+      background: #0eab6c; /* Darker green on hover */
+      border-color: #0eab6c;
+    }
+
+    button:before {
+      content: "";
+      position: absolute;
+      left: -4em;
+      width: 4em;
+      height: 100%;
+      top: 0;
+      transition: transform .4s ease-in-out;
+      background: linear-gradient(to right, transparent 1%, rgba(27, 253, 156, 0.1) 40%,rgba(27, 253, 156, 0.1) 60% , transparent 100%);
+    }
+
+    button:hover:before {
+      transform: translateX(15em);
+    }
+
+    .footer {
+      text-align: center;
+      padding: 0.5rem;
+      background-color: #0b8457; /* Dark green footer */
+      color: white;
+      font-size: 0.8rem;
+      width: 100%;
+      height: 2rem;
+      position: relative;
+      bottom: 0;
+    }
+
+    .emoji {
+      font-size: 1.5rem;
+    }
+
+    @media (max-width: 768px) {
+      .header, .footer {
+        padding: 0.5rem;
+      }
+
+      button {
+        font-size: 16px;
+        padding: 8px 16px;
+      }
+
+      main {
+        padding: 1rem;
+      }
+    }
+
+  </style>
+</head>
+<body>
+  <header class="header">
+    <h1>🌟 Himanshu kumar's Hackerrank Profile 🌟</h1>
+    <div class="button-container">
+      <a href="https://www.hackerrank.com/profile/himanshu160204" target="_blank">
+        <button>Explore My HackerRank Profile</button>
+      </a>
+    </div>
+  </header>
+
+  <main>
+    <section class="personal-info">
+      <h2>Personal Information</h2>
+      <p>Email: himanshu160204@gmail.com</p>
+      <p>Phone: +91-6203441684</p>
+      <p>Location: India</p>
+    </section>
+
+    <section class="badges">
+      <h2>My Badges</h2>
+      <ul>
+        <li class="badge">
+          <h3>Problem Solving</h3>
+          <p>⭐⭐⭐⭐</p>
+        </li>
+        <li class="badge">
+          <h3>Python</h3>
+          <p>⭐⭐</p>
+        </li>
+        <li class="badge">
+          <h3>C Language</h3>
+          <p>⭐⭐⭐</p>
+        </li>
+        <li class="badge">
+          <h3>Contributor</h3>
+          <p>⭐⭐⭐</p>
+        </li>
+      </ul>
+    </section>
+
+    <section class="certifications">
+      <h2>My Certifications</h2>
+      <ul>
+        <li>Certificate: Problem Solving (Basic) - Verified SKILL</li>
+        <li>Certificate: Problem Solving (Intermediate) - Verified SKILL</li>
+        <li>Certificate: Python (Basic) - Verified SKILL</li>
+        <li>Certificate: JavaScript (Basic) - Verified SKILL</li>
+        <li>Certificate: CSS (Basic) - Verified SKILL</li>
+        <li>Certificate: Frontend Developer (React) - Verified ROLE</li>
+      </ul>
+    </section>
+
+    <section class="work-experience">
+      <h2>Work Experience</h2>
+      <h3>Full Stack Developer Intern</h3>
+      <p><strong>Company:</strong> Bharat Intern</p>
+      <p><strong>Duration:</strong> December 2023 - January 2024</p>
+      <p><strong>Responsibilities:</strong> Developed and maintained web applications, collaborated on various projects, utilized HTML, CSS, JavaScript, and SQL.</p>
+    </section>
+
+    <section class="education">
+      <h2>Education</h2>
+      <p><strong>Computer Science & Engineering, BE</strong></p>
+      <p>Anna University</p>
+      <p>December 2022 - Present</p>
+      <p>Studying in Excel Engineering College, Dept of Computer Science and Engineering.</p>
+    </section>
+
+    <section class="links">
+      <h2>Links</h2>
+      <a href="https://www.linkedin.com/in/himanshu-kumar-vishwakrma-56a7b2188/" target="_blank">
+        <button>LinkedIn Profile</button>
+      </a>
+    </section>
+
+    <section class="skills">
+      <h2>My Skills</h2>
+      <ul>
+        <li>React</li>
+        <li>NodeJs</li>
+        <li>CSS</li>
+        <li>Python (Intermediate)</li>
+        <li>JavaScript (Intermediate)</li>
+        <li>Data Structure</li>
+        <li>SQL</li>
+      </ul>
+    </section>
+
+    <section class="projects">
+      <h2>Projects</h2>
+      <h3>Personal Portfolio Website</h3>
+      <p>Developed a responsive personal portfolio website using HTML, CSS, and JavaScript to showcase my projects, skills, and experience.</p>
+
+      <h3>Todo List App</h3>
+      <p>Created a Todo List application with React, allowing users to add, delete, and mark tasks as completed. Implemented local storage to persist tasks.</p>
+
+      <h3>Weather App</h3>
+      <p>Built a weather application using Node.js and Express to fetch and display weather data based on user input. Integrated OpenWeatherMap API for real-time data.</p>
+      <section class="hobbies">
+        <h2>Hobbies & Interests</h2>
+        <p>I enjoy coding, reading tech blogs, and participating in hackathons. I am also passionate about DevOps and continuously learning new technologies to improve my skills. In my free time, I like to play chess and explore nature trails.</p>
+      </section>
+
+      <section class="achievements">
+        <h2>Achievements</h2>
+        <ul>
+          <li>Won 1st place in a coding competition.</li>
+          <li>Completed 100+ coding challenges on Hackerrank and LeetCode.</li>
+          <li>Received the 'Best coder rank at hackerrank for outstanding performance.</li>
+        </ul>
+      </section>
+    </main>
+
+    <footer class="footer">
+      <p>&copy; 2024 Himanshu kumar vishwakrma</p>
+    </footer>
+  </body>
+</html>
